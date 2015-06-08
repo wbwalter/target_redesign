@@ -115,6 +115,7 @@ color: white;}
   margin-top:15px;
   width: 100%;
   display: none;
+  z-index: 30;
 }
 
 #primary_nav_wrap ul
@@ -196,8 +197,8 @@ select {
   max-width: 50px;
   float:left;
   padding-top: 10px;
-  margin: 0 auto;
-  height: 50px;
+  margin-top:4px;
+  height: 70px;
 }
 .shopping {
 display: none;
@@ -480,6 +481,8 @@ footer {
 }
 footer ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 footer ul li a {
   text-decoration: none;
@@ -488,33 +491,43 @@ footer ul li a {
 }
 
 .bottom-nav {
+  clear:both;
   margin: 0 auto;
   width: 100%;
   text-align: left;
-  font-size: .7em;
+  font-size: 1em;
+  font-weight: 700;
   display: none;
+  border-top: 2px solid #b50000;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+.bottom-nav a{
+  font-size: .9em;
+  font-weight: 400;
 }
 .recent {
-  width: 15%;
+  width: 20%;
   float: left;
 }
 .recent img {
-  width: 100%;
+  width: 70%;
+  float:left;
 }
 .bottom-nav1{
-  width: 15%;
+  width: 20%;
   float: left;
 }
 .bottom-nav2{
-  width: 15%;
+  width: 20%;
   float: left;
 }
 .bottom-nav3{
-  width: 15%;
+  width: 20%;
   float: left;
 }
 .bottom-nav4{
-  width: 15%;
+  width: 20%;
   float: left;
 }
 .redcard {
@@ -522,7 +535,7 @@ footer ul li a {
   float: left;
 }
 .disclaimer {
-  clear:both; 
+  clear: both; 
   width: 100%;
 }
 .dsc {
@@ -572,6 +585,7 @@ footer ul li a {
   display: inline;
   padding: 0;
   margin: 0 auto;
+  margin-top: 40px;
 }
 
 .icon ul li a {
@@ -588,8 +602,8 @@ footer ul li a {
 .icon ul li {
   display: block;
   border: none;
-  padding: 0;
-  margin: 0; 
+  padding: 5px;
+  margin: 0 auto; 
   width: 25%; 
   border: 2px solid #b50000;
   border-bottom: none;
@@ -627,12 +641,17 @@ footer ul li a {
 #primary_nav_wrap {
   display: block;
 }
+.shipping {
+  font-size: 1em;
+}
 .navb {
   display: block;
-  width: 25%;
+  width: 20%;
   float:left;
   margin: 0 auto;
   border-right: 1px solid #b50000;
+  font-weight: 700;
+  margin-top: 50px;
 }
 .navb ul {
   list-style-type: none;
@@ -649,7 +668,47 @@ footer ul li a {
   font-size: .75em;
   color: black;
 }
-.icon{width: 75%;
-float:left;
+.large-wrap {
+  width: 80%;
+  float:left;
 }
+.tftextinput{
+  border-radius: 10px 0 0 10px;}
+
+.icon {
+  margin-top: 10em;
+}
+
+.icon ul{margin-top: 50px;}
+}
+.icon ul:last-child{
+  margin-top: 0;
+}
+.icon ul li {width: 50%;}
+.icon li a{
+  padding-top: 10px;
+}
+
+.feature-text h3 {
+  font-size: 3em;
+}
+.feature-text p {
+  font-size: 2em;
+}
+.feature-text a {
+  font-size: 1em;
+}
+
+.clearance h2 {
+  font-size: 3em;
+}
+
+.event-text h2 {
+  font-size: 3em;
+} 
+.event-text p{
+  font-size: 2em;
+}
+.bottom-nav {
+  display: inline-block;
 }
