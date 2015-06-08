@@ -1,0 +1,247 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+ start commented backslash hack \
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
+
+
+body{
+  overflow-y: scroll;
+  padding: 0;
+  margin: 0;
+  font-size: 16px; 
+  font-family: 'PT Sans', arial, sans-serif;
+}
+
+.wrapper {
+  width: 100%; 
+  margin: 0 auto;
+  text-align: left;
+  background: white;
+}
+.header {
+  background: #b50000;
+  height: 120px;
+  width: 100%;
+  /*margin-top: 5%;*/
+  padding-left: 5%;
+  padding-top: 40px;
+  text-align: center;
+  padding-right: 5%;
+  position: relative;
+
+}
+.logo {float: left;
+width: 15%;
+position: absolute;
+left: 45%;
+top: -50px;}
+
+/*.logo img {
+  width: 5%;
+  height: auto;
+
+}*/
+
+.dropdown {
+  display: none;
+}
+.topa {
+  float: left;
+  width: 60%;
+  display: none;
+}
+.topbar ul {
+  list-style-type: none;
+}
+.topbar ul li{
+  display: inline-block;
+}
+.topbar ul li a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+}
+
+.redcard {
+  position: relative;
+}
+.redcard ul li{
+display:none;
+}
+.redcard ul li:hover > ul {
+  display: block;
+}
+.email {
+  float: right;
+  width: 20%;
+  display:none;
+}
+.email img {
+  float: left;
+  width: 30%;
+  height: auto;
+}
+.etext{float: left;
+color: white;}
+.search-wrap {
+  clear: both;
+}
+#primary_nav_wrap
+{
+  margin-top:15px;
+  width: 100%;
+  display: none;
+}
+
+#primary_nav_wrap ul
+{
+  list-style:none;
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+  
+}
+#primary_nav_wrap:first-child{
+  display: inline;
+}
+
+#primary_nav_wrap ul a
+{
+  display:block;
+  color:#333;
+  text-decoration:none;
+  font-weight:700;
+  font-size:12px;
+  line-height:32px;
+  padding:0 15px;
+  font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li
+{
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+  background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+  background:#f6f6f6
+}
+
+#primary_nav_wrap ul ul
+{
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  background:#fff;
+  padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+  float:none;
+  width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+  line-height:120%;
+  padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+  top:0;
+  left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+  display:block
+}
+
+#tfheader{
+    background-color:#cc0000;
+  }
+  #tfnewsearch{
+    float:right;
+    padding:20px;
+  }
+  .tftextinput{
+    margin: 0;
+    padding: 10px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    border:1px solid #0076a3; border-right:0px;
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+  }
+  .tfbutton {
+/*    padding: 5px 15px;*/
+/*    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;*/
+    margin: 0 auto;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #cc0000;
+    border: solid 1px #0076a3; border-right:0px;
+    background: #0095cd;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+    background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+  }
+  .tfbutton:hover {
+    text-decoration: none;
+    background: #007ead;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+    background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+  }
+  /* Fixes submit button height problem in Firefox */
+  .tfbutton::-moz-focus-inner {
+    border: 0;
+  }
+  .tfclear{
+    clear:both;
+  }
+
+/*
+.Shape_2_copy {
+  border-width: 8px;
+  border-color: rgb(181, 0, 0);
+  border-style: solid;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 288px;
+  top: 2090px;
+  width: 0;
+  height: 1192px;
+  z-index: 45;
+}*/
+

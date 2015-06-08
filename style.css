@@ -1,3 +1,10 @@
+body {
+  background-color: blue;}
+#amazingcarousel-container-1 {
+  width: 50%;
+  height: auto;
+  margin-left: 20%;
+}
 #tfheader{
     background-color:#c3dfef;
   }
@@ -44,7 +51,7 @@
   .tfclear{
     clear:both;
   }
-
+.searchblock ul
 /*
 .Shape_2_copy {
   border-width: 8px;
@@ -59,9 +66,3 @@
   z-index: 45;
 }*/
 
-#amazingcarousel-container-1 {
-  width: 50%;
-  height: auto;
-  margin-left: 20%;
-  
-}

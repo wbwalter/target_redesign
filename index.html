@@ -1,26 +1,61 @@
 <html>
 <head>
 	<title>	Target Test</title>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 	<script src="js/carouselengine/jquery.js"></script>
     <script src="js/carouselengine/amazingcarousel.js"></script>
+    <link rel="stylesheet" href="css/jquery.sidr.dark.css">
     <link rel="stylesheet" type="text/css" href="js/carouselengine/initcarousel-1.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/carouselengine/initcarousel-1.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    
     <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
 	<div class="wrapper-all">
 		<div class="wrapper">
-			<div class="header">
-				<div class="topbar">
-					
+				<a id="simple-menu" href="#sidr"><img src="img/drop.jpg" alt=""></a>
+ 
+				<div id="sidr">
+  <!-- Your content -->
+					 <ul>
+						<li>
+							<a href="account.html"> sign in/account</a>
+						</li>
+						<li>
+							<a href="store.html">my store</a>
+						</li>
+						<li>
+							<a href="ad.html">weekly ad</a>
+						</li>
+						<li>
+							<a href="gift.html">gift cards</a>
+						</li>
+						<li>
+							<a href="registries.html">registries</a>
+						</li>
+						<li>
+							<a href="lists.html">TargetLists
+							</a>
+						</li>
+						<li class="redcard">
+							<a href="red">REDcard</a>
+						</li>
+					</ul>
+				</div>
+ 
+<script>
+$(document).ready(function() {
+  $('#simple-menu').sidr();
+});
+</script>
+				<div class="header">
+					<a href="index.html">
+					<img class="logo" src="img/logo.jpg" alt="target logo"></a>
+					<div class="topbar clearfix">
+
 					<nav class="topa">
 						<ul>
-							<li>
-								<a href="index.html">
-									<img src="img/icon.gif" alt="target logo">
-								</a>
-							</li>
 							<li>
 								<a href="account.html"> sign in/account</a>
 							</li>
@@ -44,577 +79,599 @@
 								<a href="red">REDcard
 								</a>
 									<ul>
-										<li>learn about REDcard</li>
+										<li>learn about RED	card</li>
 										<li>manage my REDcard</li>
 									</ul>
 							</li>
-							<li class="email">
-								<a href="email.html"><img src="img/email.jpg" alt="email-icon">
-									e-mail offers<br>
-									<span>sign up & save</span></a>
-							</li>
 						</ul>
-						
 					</nav>
+
+						<div class="email">
+							<a href="email.html"><img src="img/email.jpg" alt="email-icon">
+							<div class="e-text">e-mail offers<br>
+								<span>sign up & save</span></a>
+							</div>
+						</div>
 
 				</div>
-				<div class="search-wrap"></div>
-					<nav class="search-block">
-						<ul>
-							<li><img src="img/drop.jpg" alt="drop-box"> shop all categories</li>
-								<ul>
-									<li> <a href="#">clothing, shoes & jewlery </a> 
-										<ul>
-											<li><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">men's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">baby's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">shoes
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li><a href="#">baby & kids</a>
-										<ul>
-											<li><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">men's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">baby's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">shoes
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
+				<div class="search-wrap">
+					<div class="dropdown">
+						<nav id="primary_nav_wrap">
+							<ul>
+								<li class="current-menu-item"><img src="img/drop.jpg"><a href="#"> Shop All Categories</a>
+									<ul>								 		
+										<li><a href="#">clothing, shoes & jewlery </a> 
+											<ul>
+												<li><a href="#">women's clothing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">extended sizing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">men's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">baby's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">shoes
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li><a href="#">baby & kids</a>
+											<ul>
+												<li><a href="#">women's clothing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">extended sizing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">men's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">baby's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">shoes
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+											</ul>
 
-									</li>
-									<li><a href="#">electronics & office</a>
-										<ul>
-											<li><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">men's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">baby's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">shoes
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li><a href="#">toys & videogames</a>
-										<ul>
-											<li><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">men's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">baby's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">shoes
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li><a href="#">movie, music and books</a>
-										<ul>
-											<li><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">men's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">baby's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">shoes
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li><a href="#">sports, fitness & outdoors</a>
-										<ul>
-											<li><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">men's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">baby's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">shoes
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li><a href="#">beauty, health & pharmacy</a>
-										<ul>
-											<li><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">men's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">baby's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">shoes
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li><a href="#">grocery, household & pets </a>
-										<ul>
-											<li><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">men's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">baby's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">shoes
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li><a href="#">gifts, parties & holidays </a>
-										<ul>
-											<li><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">men's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">baby's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">shoes
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li><a href="#">cleaance & deals </a>
-										<ul>
-											<li><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">men's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">baby's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">shoes
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li><a href="#">all categories </a>
-										<ul>
-											<li><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">men's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">baby's clothing
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li><a href="#">shoes
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</nav>
+										</li>
+										<li><a href="#">electronics & office</a>
+											<ul>
+												<li><a href="#">women's clothing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">extended sizing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">men's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">baby's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">shoes
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li><a href="#">toys & videogames</a>
+											<ul>
+												<li><a href="#">women's clothing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">extended sizing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">men's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">baby's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">shoes
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li><a href="#">movie, music and books</a>
+											<ul>
+												<li><a href="#">women's clothing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">extended sizing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">men's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">baby's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">shoes
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li><a href="#">sports, fitness & outdoors</a>
+											<ul>
+												<li><a href="#">women's clothing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">extended sizing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">men's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">baby's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">shoes
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li><a href="#">beauty, health & pharmacy</a>
+											<ul>
+												<li><a href="#">women's clothing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">extended sizing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">men's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">baby's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">shoes
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li><a href="#">grocery, household & pets </a>
+											<ul>
+												<li><a href="#">women's clothing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">extended sizing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">men's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">baby's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">shoes
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li><a href="#">gifts, parties & holidays </a>
+											<ul>
+												<li><a href="#">women's clothing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">extended sizing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">men's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">baby's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">shoes
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li><a href="#">cleaance & deals </a>
+											<ul>
+												<li><a href="#">women's clothing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">extended sizing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">men's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">baby's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">shoes
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li><a href="#">all categories </a>
+											<ul>
+												<li><a href="#">women's clothing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">extended sizing</a>
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">men's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">baby's clothing
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+												<li><a href="#">shoes
+													<ul>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+														<li><a href="#">stuff and things</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
 					<div class="searchbar">
-						<select>
-		 					<option value="volvo">Volvo</option>
-		 					<option value="saab">Saab</option>
-		  					<option value="opel">Opel</option>
-						  <option value="audi">Audi</option>
-						</select>
 						<div id="tfheader">
+						<select>
+							<option value="all">all</option>
+		 					<option value="all">all categories</option>
+		 					<option value="acc">accessories</option>
+		  					<option value="baby">baby</option>
+						  	<option value="beauty">beauty</option>
+						  	<option value="clear">clearance</option>
+		 					<option value="cloth">clothing</option>
+		  					<option value="electronics">electronics</option>
+						  	<option value="entertain">entertainment</option>
+						  	<option value="all">furniture</option>
+		 					<option value="gift">giftcards</option>
+		  					<option value="groc">grocery and essentials</option>
+						  	<option value="health">health</option>
+						  	<option value="home">home</option>
+		 					<option value="house">household essentials</option>
+		  					<option value="party">party supplies & holidays</option>
+						  	<option value="patio">patio & garden</option>
+						  	<option value="pets">pets</option>
+		 					<option value="shoes">shoes</option>
+		  					<option value="sports">sports & outdoors</option>
+						  	<option value="toys">toys</option>
+						  	<option value="video">video games</option>
+
+						</select>
+
 							<form id="tfnewsearch" method="get" action="http://www.google.com">
 		       					 <input type="text" class="tftextinput" name="q" size="21" maxlength="120">
 		       					 <input type="image" src="img/search-button.png" alt="Submit" class="tfbutton">
@@ -892,7 +949,9 @@
 	</div>
 
 
-	<script src="js/script.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery.sidr.min.js"></script>
+
 
 </body>
 </html>
