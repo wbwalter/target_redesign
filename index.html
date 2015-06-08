@@ -49,9 +49,10 @@ $(document).ready(function() {
   $('#simple-menu').sidr();
 });
 </script>
-				<div class="header">
+				<header class="header">
 					<a href="index.html">
 					<img class="logo" src="img/logo.jpg" alt="target logo"></a>
+					<a href="#"><img src="img/cart.png" alt="" class="shop"></a>
 					<div class="topbar clearfix">
 
 					<nav class="topa">
@@ -93,8 +94,8 @@ $(document).ready(function() {
 							</div>
 						</div>
 
-				</div>
-				<div class="search-wrap">
+				
+					<div class="search-wrap clearfix">
 					<div class="dropdown">
 						<nav id="primary_nav_wrap">
 							<ul>
@@ -644,9 +645,9 @@ $(document).ready(function() {
 							</ul>
 						</nav>
 					</div>
-					<div class="searchbar">
+					<div class="searchbar clearfix">
 						<div id="tfheader">
-						<select>
+						<select class="cat">
 							<option value="all">all</option>
 		 					<option value="all">all categories</option>
 		 					<option value="acc">accessories</option>
@@ -673,7 +674,7 @@ $(document).ready(function() {
 						</select>
 
 							<form id="tfnewsearch" method="get" action="http://www.google.com">
-		       					 <input type="text" class="tftextinput" name="q" size="21" maxlength="120">
+		       					 <input type="text" class="tftextinput" name="q" size="21" value="search target.com" maxlength="120">
 		       					 <input type="image" src="img/search-button.png" alt="Submit" class="tfbutton">
 							</form>
 							<div class="tfclear"></div>
@@ -682,67 +683,70 @@ $(document).ready(function() {
 							<img src="img/shop.png" alt="shopping-cart"> <h3>0 items in your car</h3>
 						</div>
 					</div>
-				</div>
-				</div class="shipping"> <a href="#">free shipping</a> on orders of $25+ & free returns on everything <a href="#" class="learn-shipping"></a>
+					</div>
+				</header>
+				<div class="shipping"> <a href="#">free shipping</a> on orders of $25+ & free returns on everything <a href="#" class="learn-shipping">learn more</a>
 				</div>
 			</div> <!--end header-->
 
 
-
-			<div class="sports-title">
-				<p>Target / sports & outdoors</p>
-				<h2>sports & outdoors</h2>
-			</div>
-
 			<div class="body-wrapper">
+				<div class="sports-title">
+					<p>Target / sports & outdoors</p>
+					<h1>sports & outdoors</h1>
+				</div>
+
+			
 				<div class="nav-block">
 					<nav class="navb">
 						shop categories 
-						<ul>
-							<li><a href="#">bikes</a></li>
-							<li><a href="#">boating & water sports</a></li>
-							<li><a href="#">camping & outdoors</a></li>
-							<li><a href="#">coolers & water bottles</a></li>
-							<li><a href="#">exercis & fitness</a></li>
-							<li><a href="#">fan shop</a></li>
-							<li><a href="#">game room</a></li>
-							<li><a href="#">golf</a></li>
-							<li><a href="#">helmets & pads</a></li>
-							<li><a href="#">pools & water slides</a></li>
-							<li><a href="#">outdoor toys</a></li>
-							<li><a href="#">scooters, skateboards & skates</a></li>
-							<li><a href="#">sports equipment</a></li>
-						</ul>
-						<hr>
-						featured deals
-						<ul>
-							<li><a href="#">weekly deals</a></li>
-							<li><a href="#">store pickup eligible</a></li>
-						</ul>
-						<hr>
-						<ul>
-							<li><a href="#">NFL</a></li>
-							<li><a href="#">NCAA</a></li>
-							<li><a href="#">MLB</a></li>
-							<li><a href="#">NHL</a></li>
-							<li><a href="#">NBA</a></li>
-						</ul>
-						<hr>
-						<ul>
-							<li><a href="#">Callaway</a></li>
-							<li><a href="#">Coleman</a></li>
-							<li><a href="#">Franklin</a></li>
-							<li><a href="#">Gaiam</a></li>
-							<li><a href="#">Huffy</a></li>
-							<li><a href="#">Pro Merch</a></li>
-							<li><a href="#">Razor</a></li>
-							<li><a href="#">Schwinn</a></li>
-							<li><a href="#">Speedo</a></li>
-							<li><a href="#">Wilson</a></li>
-						</ul>
+					
+							<ul>
+								<li><a href="#">bikes</a></li>
+								<li><a href="#">boating & water sports</a></li>
+								<li><a href="#">camping & outdoors</a></li>
+								<li><a href="#">coolers & water bottles</a></li>
+								<li><a href="#">exercis & fitness</a></li>
+								<li><a href="#">fan shop</a></li>
+								<li><a href="#">game room</a></li>
+								<li><a href="#">golf</a></li>
+								<li><a href="#">helmets & pads</a></li>
+								<li><a href="#">pools & water slides</a></li>
+								<li><a href="#">outdoor toys</a></li>
+								<li><a href="#">scooters, skateboards & skates</a></li>
+								<li><a href="#">sports equipment</a></li>
+							</ul>
+							<hr>
+							featured deals
+							<ul>
+								<li><a href="#">weekly deals</a></li>
+								<li><a href="#">store pickup eligible</a></li>
+							</ul>
+							<hr>
+							<ul>
+								<li><a href="#">NFL</a></li>
+								<li><a href="#">NCAA</a></li>
+								<li><a href="#">MLB</a></li>
+								<li><a href="#">NHL</a></li>
+								<li><a href="#">NBA</a></li>
+							</ul>
+							<hr>
+							<ul>
+								<li><a href="#">Callaway</a></li>
+								<li><a href="#">Coleman</a></li>
+								<li><a href="#">Franklin</a></li>
+								<li><a href="#">Gaiam</a></li>
+								<li><a href="#">Huffy</a></li>
+								<li><a href="#">Pro Merch</a></li>
+								<li><a href="#">Razor</a></li>
+								<li><a href="#">Schwinn</a></li>
+								<li><a href="#">Speedo</a></li>
+								<li><a href="#">Wilson</a></li>
+							</ul>
 					</nav>
 					<nav class="icon">
 						<ul class="fourblock">
+						
 							<li><a href="#"><img src="img/bike.jpg" alt="bike">
 								<br>bikes & accessories</a>
 							</li>
@@ -762,7 +766,7 @@ $(document).ready(function() {
 							<li><a href="#"><img src="img/treadmill.jpg" alt="treadmill">
 								<br>exercise & fitness</a></li>
 						</ul>
-						<ul class="threeblock"
+						<ul class="threeblock clearfix">
 							<li><a href="#"><img src="img/fan.jpg" alt="fan-shop">
 								<br>fan shop</a></li>
 							<li><a href="#"><img src="img/equip.jpg" alt="sports-equipment">
@@ -774,6 +778,7 @@ $(document).ready(function() {
 				</div>
 
 				<!-- carousel code for trending items -->
+				
 				<div id="amazingcarousel-container-1"> <h2>top rated items in sports & outdoors</h2>
 				    <div id="amazingcarousel-1" style="display:none;position:relative;width:100%;max-width:1125px;margin:0px auto 0px;">
 				        <div class="amazingcarousel-list-container">
@@ -818,15 +823,15 @@ $(document).ready(function() {
 				</div>
 
 			<!-- End Jquery Plug -->
-				<div class="feature">
+				<div class="feature clearfix">
 					<div class="feature-text">
 						<h2>school's out.<br>time to ride.
 						</h2>
 						<p><span>save</span> on kids' bikes<br>
-							featureing their fave friends.</p>
-							<h5><span class="bikes"><a href="bikedeal.html">kids' bikes deals</a>
+							featuring their fave friends.</p>
+							<h5><span class="bikes"><a href="bikedeal.html">kids' bikes deals > </a>
 								<br>
-								all bikes & accessories </span></h5>
+								<a href="#">all bikes & accessories > </span></a></h5>
 							<span>
 						</p>
 					</div>	
@@ -835,29 +840,31 @@ $(document).ready(function() {
 					</div>
 				</div>
 
-				<div class="clearance-wrapper">
+				<div class="clearance-wrapper clearfix">
 					<div class="clearance">
-					<a href="deals.html"><img src="img/clearance.jpg" alt=""></a>
+					<a href="deals.html"><img src="img/clearance.jpg" alt=""><br> <h2>clearance & weekly deals</h2</a>
 					</div>
 					<div class="pool-img">
 						<a href="news"><img src="img/pool.jpg"></a>
 						<div class="info-bar">
-							<h2>save up to 20% on pool & water fun*</h2>
+							<h2>save up to 20%<br> on pool<br> & water fun*</h2>
 							<div class="pool-button">pool & water deals</div>
 						</div>						
 					</div>
-					<div class="event-deal">
-						<div class="promo-event"><img src="img/bean-bag.jpg" alt="no-idea">
-						</div>
-						<div class="event-text">
-							<h2><span>save up to 30%</span> on Father's day gifts </h2><br>
-							<h4>featuring his favorite team*</h4>
-							<p><span class="bikes"> <a href="tailgate.html>Wild Sports Tailgating"></a><br>
-							<a href="fanmates.html">Fanmats auto accessories</a><br>
-							<a href="allfan.html">all fan shop deals</a></span>
-						</div>
+				</div>
+
+				<div class="event-deal clearfix">
+					<div class="promo-event"><img src="img/bean-bag.jpg" alt="no-idea">
+					</div>
+					<div class="event-text">
+						<h1><span>save up to 30%</span> on Father's day gifts </h1><!-- <br> -->
+						<p>featuring his favorite team*<br><br>
+						<span class="bikes"> <a href="tailgate.html">Wild Sports Tailgating > </a><br>
+						<a href="fanmates.html">Fanmats auto accessories > </a><br>
+						<a href="allfan.html">all fan shop deals > </a></span>
 					</div>
 				</div>
+			
 			</div> <!-- end body -->
 			<footer>
 				<p>Hearing the call of the outdoors? Target lets you embrace your adventurous spirit with our collection of sports and outdoor equipment including camping, hiking and backpacking gear. Our tents and camping gear are a nature lover’s delight. But if you want to do more than walking, running or hiking, we have you covered with the latest sports equipment. Bikes are one of our hottest items. Conquer any terrain with our mountain bikes, road bikes or bmx bikes. If exploring the wilderness or hosting parties is your hobby, our canopy sets are the perfect shelter from the elements. At Target, our state-of-the-art golf clubs and accessories will help you bring your A-game. Encourage your children to enjoy some active playtime with scooters, trampolines, skateboards, skates, go-karts and more. Our helmets and pads will keep you and your little ones protected while you have fun. After a long day of enjoying the outdoors, cool off in our outdoor swimming pools. Inflatable kiddie pools, water slides and pool toys are also popular. Don’t forget tubes and chaise lounges for a relaxing float. Whether you enjoy the thrill of an adventure or just the fresh air and sunshine, it’s important to stay in shape. When the weather is being less than cooperative, we offer treadmills, exercise bikes, ellipticals, weight-training accessories and much more. You have plenty of opportunities to enjoy indoor and outdoor sports with the vast selection at Target. So, stay active!</p>

@@ -26,6 +26,9 @@ body{
   font-size: 16px; 
   font-family: 'PT Sans', arial, sans-serif;
 }
+span {
+  color:red;
+}
 
 .wrapper {
   width: 100%; 
@@ -46,10 +49,16 @@ body{
 
 }
 .logo {float: left;
-width: 15%;
+width: 60px;
 position: absolute;
 left: 45%;
 top: -50px;}
+.shop {
+  width: 60px;
+  position: absolute;
+  top:-45px;
+  right:0;
+}
 
 /*.logo img {
   width: 5%;
@@ -183,28 +192,45 @@ color: white;}
 {
   display:block
 }
-
+select {
+  max-width: 50px;
+  float:left;
+  padding-top: 10px;
+  margin: 0 auto;
+  height: 50px;
+}
+.shopping {
+display: none;
+}
+.search-wrap {height: 5%;}
 #tfheader{
     background-color:#cc0000;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
   }
   #tfnewsearch{
-    float:right;
-    padding:20px;
+/*    padding:20px;*/
   }
   .tftextinput{
     margin: 0;
-    padding: 10px 25px;
+    width: 65%;
+    float:left;
+    padding: 4px 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size:14px;
     border:1px solid #0076a3; border-right:0px;
-    border-top-left-radius: 5px 5px;
-    border-bottom-left-radius: 5px 5px;
+    border-radius: 10px;
+    color: gray;
+    text-align: center;
   }
   .tfbutton {
 /*    padding: 5px 15px;*/
 /*    font-family: Arial, Helvetica, sans-serif;
     font-size:14px;*/
     margin: 0 auto;
+    width:50px;
+    height: auto;
     outline: none;
     cursor: pointer;
     text-align: center;
@@ -230,7 +256,213 @@ color: white;}
   .tfclear{
     clear:both;
   }
+.cart {
+  display: none;
+}
+.body-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.shipping {
+  font-size: .75em;
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 2px solid #b50000;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+.shipping a {
+  text-decoration: none;
+  color: #b50000;
+}
+.learn-shipping {
+  font-size: .7em;
+}
+.sports-title h1{
+  padding: 0;
+  margin: 0;
+}
+.sports-title p {
+  padding: 0;
+  margin: 0
+}
+.navb{
+  display: none;
+}
+.nav-block {
+  margin: 0 auto;
+  padding: 0;
+}
+/*.fourblock {
+  padding: 0;
+  margin:0 auto;
+}*/
+.icon {
+  display: inline-block;
+  background-color: #b50000;
+  margin: 0 auto;
+  padding: 1em;
+  width: 100%;
+  border-radius: 0px 40px 40px 0px;
+}
+.icon ul {
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
+/*  display: block;*/
+}
+.icon li {
+  float: left;
+  background: white;
+  margin: 0 auto;
+  margin-bottom: .5em;
+  border-radius: 30px;
+  padding-right: 10%;
+  margin-left: 5%;
+}
+.icon li a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
 
+}
+.icon img {
+  width: 45%;
+  height: auto;
+  float: left;
+}
+.threeblock {
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+}
+.threeblock li {
+  float: left;
+}
+.threeblock li a img {
+  33%;
+}
+#amazingcarousel-container-1{
+clear: both;}
+#amazingcarousel-container-1 h2 {
+  text-align: right;
+  border-right: 4px solid #b50000;
+  border-top: 4px solid #b50000;
+  border-bottom: 4px solid #b50000;
+  padding-right: 5px;
+
+}
+.feature a{
+  text-decoration: none;
+  color: red;
+
+}
+.feature h2 {
+  text-align: right;
+}
+.feature-text {
+  width: 30%;
+  float: left;
+}
+.feature-image {
+  width: 70%;
+  float: left;
+}
+.feature-image img {
+  width: 80%;
+  height: auto;
+}
+.clearance-wrapper {
+  clear: both;
+  padding-top: 20px;
+  border-top: 4px solid #b50000;
+  margin-top: 10px;
+}
+.clearance {
+  width: 25%;
+  float: left;
+  text-align: center;
+  color: #3a3a3a;
+
+}
+.clearance a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+.clearance img {
+  width: 100%;
+}
+.pool-img {
+  width: 70%;
+  float: left;
+   position: relative;
+}
+.pool-img img {
+  width: 100%;
+  z-index: 20
+}
+.info-bar {
+  position: absolute;
+  left: 3%;
+  top:10%;
+  color: white;
+}
+.pool-button {
+  font-size: .8em;
+  text-align: center;
+  background-color: #696969;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.event-deal {
+  clear: both;
+  position: normal;
+  padding-top: 2em;
+  margin-top: 10px
+}
+.promo-event {
+  width: 65%;
+  float: left;
+  position: normal;
+}
+.promo-event img {
+  width: 100%;
+}
+.event-text {
+  width: 35%;
+  float: left;
+  position: normal;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+}
+.event-text h1 {
+  margin: 0;
+  padding: 0;
+}
+.event-text p {
+  margin: 0;
+  padding:0;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.bikes a {
+  font-size: .65em;
+  color: #696969;
+  text-decoration: none;
+}
+
+footer {
+  clear: both;
+  width: 90%;
+  margin: 0 auto;
+  border-top: 4px solid #b50000;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-size: 0.75em;
+}
 /*
 .Shape_2_copy {
   border-width: 8px;
