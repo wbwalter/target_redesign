@@ -559,9 +559,10 @@ footer ul li a {
   text-align: right;
 }
 
+
 @media screen and (min-width: 650px) {
 .tftextinput{ 
-  width: 100%;
+  width: 90%;
 }
 
 .icon {
@@ -594,7 +595,6 @@ footer ul li a {
   border-bottom: none;
   border-left: none;
 }
-.icon ul li {}
 .fourblocka li {
   display: inline-block;
   float: left;
@@ -620,25 +620,36 @@ footer ul li a {
 }
 
 @media screen and (min-width: 1000px){
+
 #sidr {
   display: none;
 }
 #primary_nav_wrap {
-  display: normal;
+  display: block;
+}
+.navb {
+  display: block;
+  width: 25%;
+  float:left;
+  margin: 0 auto;
+  border-right: 1px solid #b50000;
+}
+.navb ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+.navb li {
+  margin: 0;
+  padding:0;
+}
+.navb li a {
+  text-decoration: none;
+  font-size: .75em;
+  color: black;
+}
+.icon{width: 75%;
+float:left;
 }
 }
-
-/*
-.Shape_2_copy {
-  border-width: 8px;
-  border-color: rgb(181, 0, 0);
-  border-style: solid;
-  background-color: rgb(255, 255, 255);
-  position: absolute;
-  left: 288px;
-  top: 2090px;
-  width: 0;
-  height: 1192px;
-  z-index: 45;
-}*/
-
