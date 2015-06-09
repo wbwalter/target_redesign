@@ -3,7 +3,7 @@ $function () {
     var cat_links  = $( ".primary-nav-wrap > ul > li > a" );
     var sub        = $( ".sub_nav" );
     var sub_nav    = $( ".sub-links ul li a")
-    var wrapper    = $( ".wrapper" );
+    var wrapper    = $( ".wrapper-all" );
     var back       = $(".back");
 
     .menu.on("click" function( e ) ){
