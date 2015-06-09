@@ -1,19 +1,24 @@
 <html>
 <head>
 	<title>	Target Test</title>
-	<!-- <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'> -->
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 	<script src="js/carouselengine/jquery.js"></script>
-    <script src="js/carouselengine/amazingcarousel.js"></script>
+    <script src="js/carouselengine/amazingcarousel.js"></script> 
     <link rel="stylesheet" href="css/jquery.sidr.dark.css">
     <link rel="stylesheet" type="text/css" href="js/carouselengine/initcarousel-1.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="js/carouselengine/initcarousel-1.js"></script>
+    <script src="js/carouselengine/initcarousel-1.js"></script> 
     
     <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
 	<div class="wrapper-all">
 		<div class="wrapper">
+			<script>
+$(document).ready(function() {
+  $('#simple-menu').sidr();
+});
+</script>
 				<a id="simple-menu" href="#sidr"><img src="img/drop.jpg" alt=""></a>
  
 				<div id="sidr">
@@ -43,12 +48,6 @@
 						</li>
 					</ul>
 				</div>
- 
-<script>
-$(document).ready(function() {
-  $('#simple-menu').sidr();
-});
-</script>
 				<header class="header">
 					<a href="index.html">
 					<img class="logo" src="img/logo.jpg" alt="target logo"></a>
@@ -750,33 +749,60 @@ $(document).ready(function() {
 						<nav class="icon">
 							<ul class="clearfix">
 							
-								<li><a href="#" class="clearfix"><img src="img/bike.jpg" alt="bike">
-									<br>bikes & accessories</a>
+								<li>
+									<a href="#" class="clearfix">
+										<img src="img/bike.jpg" alt="bike">
+										<span>bikes & accessories</span>
+									</a>
 								</li>
-
-								<li><a href="#" class="clearfix"><img src="img/boating.jpg" alt="boat">
-									<br>boating & watersports</a></li>
-								<li><a href="#" class="clearfix"><img src="img/camp.jpg" alt="camping">
-									<br>camping & outdoors</a></li>
-								<li><a href="#" class="clearfix"><img src="img/cooler.jpg" alt="cooler">
-									<br>coolers & water bottles</a></li>
+								<li>
+									<a href="#" class="clearfix">
+										<img src="img/boating.jpg" alt="boat">
+										<span>boating & watersports</span>
+									</a>
+									</li>
+								<li>
+									<a href="#" class="clearfix">
+										<img src="img/camp.jpg" alt="camping">
+										<span>camping & outdoors</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="clearfix">
+										<img src="img/cooler.jpg" alt="cooler">
+										<span>coolers & water bottles</span>
+									</a>
+								</li>
 							<!-- </ul>
 							<ul= class="fourblockb clearfix"> -->
-								<li><a href="#" class="clearfix"><img src="img/lawn.jpg" alt="lawn">
-									<br>outdoor toys & lawn games</a></li>
-								<li><a href="#" class="clearfix"><img src="img/poolicon.jpg" alt="pool">
-									<br>pool, spas & water gear</a></li>
-								<li><a href="#" class="clearfix"><img src="img/scooter.jpg" alt="scooter">
-									<br>scooters, stakeboards & skates</a></li>
-								<li><a href="#" class="clearfix"><img src="img/treadmill.jpg" alt="treadmill">
-									<br>exercise & fitness</a></li>
-							<!-- </ul>
-
-							<ul class="clearfix"> -->
+								<li>
+									<a href="#" class="clearfix">
+										<img src="img/lawn.jpg" alt="lawn">
+										<span>outdoor toys & lawn games</span>
+									</a></li>
+								<li>
+									<a href="#" class="clearfix">
+										<img src="img/poolicon.jpg" alt="pool">
+										<span>pool, spas & water gear</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="clearfix">
+										<img src="img/scooter.jpg" alt="scooter">
+										<span>scooters, stakeboards & skates</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="clearfix">
+										<img src="img/treadmill.jpg" alt="treadmill">
+										<span>exercise & fitness</span>
+									</a>
+								</li>
+							
 								<li>
 									<a href="#" class="clearfix">
 										<img src="img/fan.jpg" alt="fan-shop">
-										<span>fan shop</span>
+										<span>fanShop</span>
 									</a>
 								</li>
 								<li>
@@ -841,11 +867,13 @@ $(document).ready(function() {
 					            <div class="amazingcarousel-prev"></div>
 					            <div class="amazingcarousel-next"></div>
 					        </div>
-					        <div class="amazingcarousel-nav"></div>
-					        <div class="amazingcarousel-engine"><a href="http://amazingcarousel.com">JavaScript Image Carousel</a></div>
+					        <div class="amazingcarousel-nav">					  
+					        </div>
+					        <div class="amazingcarousel-engine"><a href="http://amazingcarousel.com">JavaScript Image Carousel</a>
+					        </div>
 					    </div>
 					</div>
-			</div>
+				</div>
 
 			<!-- End Jquery Plug -->
 				<div class="feature clearfix">
@@ -946,7 +974,7 @@ $(document).ready(function() {
 							<li><a href="#">contact us</a></li>
 						</ul>
 					</div>
-				<!-- 	<div class="redcard">
+					<div class="redcard">
 						the REDcard
 						<ul>
 							<li><a href="#">card benefits</a></li>
@@ -955,7 +983,7 @@ $(document).ready(function() {
 							<li><a href="#">5% off plus everyday free shipping</a></li>
 							<li><a href="#">apply now</a></li>
 						</ul>
-					</div> -->
+					</div> 
 				</div>
 				<div class="disclaimer clearfix">
 					<div class="dsc"><img src="img/logo2.jpg" alt="logo">
@@ -997,7 +1025,7 @@ $(document).ready(function() {
 	</div>
 
 
-	<script type="text/javascript" src="js/jquery.sidr.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/jquery.sidr.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script> 
 </body>
 </html>

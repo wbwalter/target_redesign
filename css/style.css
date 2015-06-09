@@ -658,7 +658,7 @@ footer ul li a {
 }
 .icon li a img {
   float:none;
-  width: 100%;
+  width: 85%;
 }
 .icon ul{
   margin-top: 50px;
@@ -668,18 +668,21 @@ footer ul li a {
   padding-top: 0;
 }
 .icon ul li {
-  width: 33%;
-  border: 1px solid #b50000;
+  width: 25%;
+  border: none;
   border-radius: 0;
+  padding-top: 10px;
+  display: inline-block;
+  float:none;
+  vertical-align: top;
+}
+.icon ul li span{
 }
 
 #amazingcarousel-container-1 {
   clear:both;
 }
-.icon li a{
-  padding-top: 10px;
-  display: inline-block;
-  float:none;
+.icon li{
 }
 
 .feature-text h3 {
