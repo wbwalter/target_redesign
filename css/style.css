@@ -110,12 +110,14 @@ color: white;}
 .search-wrap {
   clear: both;
 }
+/*
 #primary_nav_wrap
 {
-  margin-top:15px;
+
+  margin-top:150px;
   width: 100%;
-  display: none;
-  z-index: 30;
+  display: none
+  z-index: 1000;
 }
 
 #primary_nav_wrap ul
@@ -192,7 +194,8 @@ color: white;}
 #primary_nav_wrap ul li:hover > ul
 {
   display:block
-}
+}*/
+
 select {
   max-width: 50px;
   float:left;
