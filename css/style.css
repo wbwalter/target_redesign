@@ -38,7 +38,7 @@ span {
   position: relative;
   transition: left 0.5s;
   left: 0;
-    }
+  }
 .header {
   background: #b50000;
   height: 120px;
@@ -68,10 +68,54 @@ top: -50px;}
   height: auto;
 
 }*/
-
-.dropdown {
-  display: none;
+.search-wrap {
+  width: 100%;
 }
+.back {
+  background: blue;
+}
+    .wrapper.cat_nav .primary-nav-wrap,
+    .wrapper.sub_nav .primary-nav-wrap,
+    .wrapper.sub_links .primary-nav-wrap{
+        right: 20%;
+    }
+
+    .wrapper.sub_nav .cat_links .sub_links{
+        right: 0;
+    }
+    /*STOP OVERLAY ANIMATON*/
+
+    .primary-nav-wrap{
+        background: red;
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 80%;
+        right: 100%;
+        bottom: 0;
+        transition: right 0.5s;
+    }
+
+    .sub_nav{
+        background: blue;
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        right: 100%;
+        bottom: 0;
+        transition: right 0.5s;
+    }
+       .sub_links{
+        background: blue;
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        right: 100%;
+        bottom: 0;
+        transition: right 0.5s;
+    }
 .topa {
   float: left;
   width: 60%;
