@@ -7,8 +7,8 @@
      height: 0;
      }
 .clearfix { display: inline-block; }
-
- html .clearfix { height: 1%; }
+ start commented backslash hack \
+* html .clearfix { height: 1%; }
 .clearfix { display: block; }
 
 html {
@@ -29,6 +29,16 @@ body{
 span {
   color:red;
 }
+
+.wrapper {
+  width: 100%; 
+  margin: 0 auto;
+  text-align: left;
+  background: white;
+  position: relative;
+  transition: left 0.5s;
+  left: 0;
+  }
 .header {
   background: #b50000;
   height: 120px;
@@ -39,24 +49,13 @@ span {
   text-align: center;
   padding-right: 5%;
   position: relative;
-}
 
-.wrapper-all {
-  width: 100%; 
-  margin: 0 auto;
-  text-align: left;
-  background: white;
-  position: relative;
-  transition: left 0.5s;
-  left: 0;
-  
 }
-.logo {
-  float: left;
-  width: 60px;
-  position: absolute;
-  left: 45%;
-  top: -50px;}
+.logo {float: left;
+width: 60px;
+position: absolute;
+left: 45%;
+top: -50px;}
 .shop {
   width: 60px;
   position: absolute;
@@ -64,14 +63,13 @@ span {
   right:0;
 }
 
-.logo img {
+/*.logo img {
   width: 5%;
   height: auto;
 
-}
+}*/
 .search-wrap {
   width: 100%;
-  display: block;
 }
 .back {
   background: blue;
@@ -121,7 +119,7 @@ span {
 .topa {
   float: left;
   width: 60%;
-/*  display: none;*/
+  display: none;
 }
 .topbar ul {
   list-style-type: none;
@@ -138,12 +136,12 @@ span {
 .redcard {
   position: relative;
 }
-/*.redcard ul li{
+.redcard ul li{
 display:none;
-}*/
-/*.redcard ul li:hover > ul {
+}
+.redcard ul li:hover > ul {
   display: block;
-}*/
+}
 .email {
   float: right;
   width: 20%;
@@ -156,7 +154,6 @@ display:none;
 }
 .etext{float: left;
 color: white;}
-
 .search-wrap {
   clear: both;
 }
