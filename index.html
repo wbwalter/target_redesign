@@ -1,628 +1,1202 @@
-<html>
-<head>
-	<title>	Target Test</title>
-	<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-	
-	<script src="js/carouselengine/jquery.js"></script>
-    <script src="js/carouselengine/amazingcarousel.js"></script> 
-    
-    <link rel="stylesheet" href="css/jquery.sidr.dark.css">
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
 
-    <link rel="stylesheet" type="text/css" href="js/carouselengine/initcarousel-1.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    
-    <script src="js/carouselengine/initcarousel-1.js"></script> 
-    
-    <link rel="stylesheet" href="css/normalize.css">
-</head>
-<body>
-	<div class="wrapper-all">
-			<div class="top-nav">
-				 <ul>
-					<li>
-						<a href="account.html"> sign in/account</a>
-					</li>
-					<li>
-						<a href="store.html">my store</a>
-					</li>
-					<li>
-						<a href="ad.html">weekly ad</a>
-					</li>
-					<li>
-						<a href="gift.html">gift cards</a>
-					</li>
-					<li>
-						<a href="registries.html">registries</a>
-					</li>
-					<li>
-						<a href="lists.html">TargetLists
-						</a>
-					</li>
-					<li class="redcard">
-						<a href="red">REDcard</a>
-					</li>
-				</ul>
-			</div>
-			<header class="header">
+		<title>Target</title>
+
+		<script src="js/carouselengine/jquery.js"></script>
+	    <script src="js/carouselengine/amazingcarousel.js"></script> 
+	    <link rel="stylesheet" type="text/css" href="js/carouselengine/initcarousel-1.css">
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+	    
+	    <script src="js/carouselengine/initcarousel-1.js"></script> 
+	    
+<!-- 	    <link rel="stylesheet" href="css/normalize.css"> -->
+			<link rel="shortcut icon" href="../favicon.ico">
+			<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+			<link rel="stylesheet" type="text/css" href="css/component.css" />
+			<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Push Wrapper -->
+			<div class="mp-pusher" id="mp-pusher">
+
+				<!-- mp-menu -->
 				<a href="index.html">
-				<img class="logo" src="img/logo.jpg" alt="target logo"></a>
-				<a href="#"><img src="img/cart.png" alt="" class="shop"></a>
-				<div class="topbar clearfix">						
-					<div class="email">
-						<a href="email.html"><img src="img/email.jpg" alt="email-icon">
-						<div class="e-text">e-mail offers<br>
-							<span>sign up & save</span></a>
-						</div>
-					</div>
-				
-					<div class="search-wrap">
-						<nav class="primary-nav-wrap">
-							<div class="back">return home
-							</div>
-							<a href="#"> <img src="img/drop.jpg" class="nav-icon"> Shop All Categories</a>
-								<ul>								 
-									<li><a href="#" class="sub">clothing, shoes & jewlery </a> 
-										<ul>
-											<li class="sub-links"><a href="#">women's clothing</a>
+					<img class="logo" src="img/logo.jpg" alt="target logo"></a>
+					<a href="#"><img src="img/cart.png" alt="" class="shop"></a>
+				<nav id="mp-menu" class="mp-menu">
+					<div class="mp-level">
+						<h2 class=" icon-world">All Categories</h2>
+						<ul>
+							<li class="icon icon-arrow-left">
+								<a class="icon icon-display" href="#">clothing, shoes & jewlery</a>
+								<div class="mp-level">
+									<h2 class="icon icon-display">women's clothing</h2>
+									<a class="mp-back" href="#">back</a>
+									<ul>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-phone" href="#">women's clothing</a>
+											<div class="mp-level">
+												<h2>women's clothing</h2>
+												<a class="mp-back" href="#">back</a>
 												<ul>
 													<li><a href="#">stuff and things</a></li>
 													<li><a href="#">stuff and things</a></li>
 													<li><a href="#">stuff and things</a></li>
 													<li><a href="#">stuff and things</a></li>
 													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
 												</ul>
-											</li>
-											<li class="sub-links"><a href="#">men's clothing</a>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-tv" href="#">men's clothing</a>
+											<div class="mp-level">
+												<h2>men's clothing</h2>
+												<a class="mp-back" href="#">back</a>
 												<ul>
 													<li><a href="#">stuff and things</a></li>
 													<li><a href="#">stuff and things</a></li>
 													<li><a href="#">stuff and things</a></li>
 													<li><a href="#">stuff and things</a></li>
 													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
 												</ul>
-											</li>
-											<li class="sub-links"><a href="#">baby's clothing</a>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">baby's clothing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
 												<ul>
 													<li><a href="#">stuff and things</a></li>
 													<li><a href="#">stuff and things</a></li>
 													<li><a href="#">stuff and things</a></li>
 													<li><a href="#">stuff and things</a></li>
 													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
 												</ul>
-											</li>
-											<li class="sub-links"><a href="#">shoes</a>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">shoes</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
 												<ul>
 													<li><a href="#">stuff and things</a></li>
 													<li><a href="#">stuff and things</a></li>
 													<li><a href="#">stuff and things</a></li>
 													<li><a href="#">stuff and things</a></li>
 													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
 												</ul>
-											</li>
-										</ul>
-									</li>
-									<li><a href="#" class="sub">baby & kids</a>
-										<ul>
-											<li class="sub-links"><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">men's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">baby's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">shoes</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
 
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">extended sizing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">accessories</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+
+											</div>
+										</li>
+										
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">featured deals</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+							<li class="icon icon-arrow-left">
+								<a class="icon icon-display" href="#">baby & kids</a>
+								<div class="mp-level">
+									<h2 class="icon icon-display">women's clothing</h2>
+									<a class="mp-back" href="#">back</a>
+									<ul>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-phone" href="#">women's clothing</a>
+											<div class="mp-level">
+												<h2>women's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-tv" href="#">men's clothing</a>
+											<div class="mp-level">
+												<h2>men's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">baby's clothing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">shoes</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
+												</ul>
+
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">extended sizing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">accessories</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+
+											</div>
+										</li>
+										
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">featured deals</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+							<li class="icon icon-arrow-left">
+								<a class="icon icon-display" href="#">electronics & office</a>
+								<div class="mp-level">
+									<h2 class="icon icon-display">women's clothing</h2>
+									<a class="mp-back" href="#">back</a>
+									<ul>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-phone" href="#">women's clothing</a>
+											<div class="mp-level">
+												<h2>women's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-tv" href="#">men's clothing</a>
+											<div class="mp-level">
+												<h2>men's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">baby's clothing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">shoes</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
+												</ul>
+
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">extended sizing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">accessories</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+
+											</div>
+										</li>
+										
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">featured deals</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+							<li class="icon icon-arrow-left">
+								<a class="icon icon-display" href="#">video games</a>
+								<div class="mp-level">
+									<h2 class="icon icon-display">women's clothing</h2>
+									<a class="mp-back" href="#">back</a>
+									<ul>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-phone" href="#">women's clothing</a>
+											<div class="mp-level">
+												<h2>women's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-tv" href="#">men's clothing</a>
+											<div class="mp-level">
+												<h2>men's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">baby's clothing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">shoes</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
+												</ul>
+
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">extended sizing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">accessories</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+
+											</div>
+										</li>
+										
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">featured deals</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+							<li class="icon icon-arrow-left">
+								<a class="icon icon-display" href="#">movies and music</a>
+								<div class="mp-level">
+									<h2 class="icon icon-display">women's clothing</h2>
+									<a class="mp-back" href="#">back</a>
+									<ul>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-phone" href="#">women's clothing</a>
+											<div class="mp-level">
+												<h2>women's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-tv" href="#">men's clothing</a>
+											<div class="mp-level">
+												<h2>men's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">baby's clothing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">shoes</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
+												</ul>
+
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">extended sizing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">accessories</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+
+											</div>
+										</li>
+										
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">featured deals</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+							<li class="icon icon-arrow-left">
+								<a class="icon icon-display" href="#">grocery & outdoors</a>
+								<div class="mp-level">
+									<h2 class="icon icon-display">women's clothing</h2>
+									<a class="mp-back" href="#">back</a>
+									<ul>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-phone" href="#">women's clothing</a>
+											<div class="mp-level">
+												<h2>women's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-tv" href="#">men's clothing</a>
+											<div class="mp-level">
+												<h2>men's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">baby's clothing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">shoes</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
+												</ul>
+
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">extended sizing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">accessories</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+
+											</div>
+										</li>
+										
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">featured deals</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+							<li class="icon icon-arrow-left">
+								<a class="icon icon-display" href="#">sports, fitness & outdoors</a>
+								<div class="mp-level">
+									<h2 class="icon icon-display">women's clothing</h2>
+									<a class="mp-back" href="#">back</a>
+									<ul>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-phone" href="#">women's clothing</a>
+											<div class="mp-level">
+												<h2>women's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-tv" href="#">men's clothing</a>
+											<div class="mp-level">
+												<h2>men's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">baby's clothing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">shoes</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
+												</ul>
+
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">extended sizing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">accessories</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+
+											</div>
+										</li>
+										
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">featured deals</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+							</li>
+							<li class="icon icon-arrow-left">
+								<a class="icon icon-display" href="#">beauty & health</a>
+								<div class="mp-level">
+									<h2 class="icon icon-display">women's clothing</h2>
+									<a class="mp-back" href="#">back</a>
+									<ul>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-phone" href="#">women's clothing</a>
+											<div class="mp-level">
+												<h2>women's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-tv" href="#">men's clothing</a>
+											<div class="mp-level">
+												<h2>men's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">baby's clothing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">shoes</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
+												</ul>
+
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">extended sizing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">accessories</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+
+											</div>
+										</li>
+										
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">featured deals</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+							<li class="icon icon-arrow-left">
+								<a class="icon icon-display" href="#">clearance and deals</a>
+								<div class="mp-level">
+									<h2 class="icon icon-display">women's clothing</h2>
+									<a class="mp-back" href="#">back</a>
+									<ul>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-phone" href="#">women's clothing</a>
+											<div class="mp-level">
+												<h2>women's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-tv" href="#">men's clothing</a>
+											<div class="mp-level">
+												<h2>men's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">baby's clothing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">shoes</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+										
+												</ul>
+
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">extended sizing</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">accessories</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+
+											</div>
+										</li>
+										
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-camera" href="#">featured deals</a>
+											<div class="mp-level">
+												<h2>baby's clothing</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">stuff and things</a></li>
+													<li><a href="#">all stuff</a></li>
+												</ul>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</li>							<li><a class="icon icon-wallet" href="#">all categories</a></li>
+						</ul>
+							
+					</div>
+				</nav>
+				<!-- /mp-menu -->
+
+				<div class="scroller"><!-- this is for emulating position fixed of the nav -->
+					<div class="scroller-inner">
+						<!-- Top Navigation -->
+
+						<header class="codrops-header">
+							<div class="top-nav">
+								 <ul>
+									<li>
+										<a href="account.html"> sign in/account</a>
 									</li>
-									<li><a href="#" class="sub">electronics & office</a>
-										<ul>
-											<li class="sub-links"><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">men's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">baby's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">shoes</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
+									<li>
+										<a href="store.html">my store</a>
 									</li>
-									<li><a href="#" class="sub">toys & videogames</a>
-										<ul>
-											<li class="sub-links"><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">men's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">baby's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">shoes</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
+									<li>
+										<a href="ad.html">weekly ad</a>
 									</li>
-									<li><a href="#" class="sub">movie, music and books</a>
-										<ul>
-											<li class="sub-links"><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">men's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">baby's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">shoes</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
+									<li>
+										<a href="gift.html">gift cards</a>
 									</li>
-									<li><a href="#" class="sub">sports, fitness & outdoors</a>
-										<ul>
-											<li class="sub-links"><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">men's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">baby's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">shoes</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
+									<li>
+										<a href="registries.html">registries</a>
 									</li>
-									<li><a href="#" class="sub">beauty, health & pharmacy</a>
-										<ul>
-											<li class="sub-links"><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">men's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">baby's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">shoes</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
+									<li>
+										<a href="lists.html">TargetLists
+										</a>
 									</li>
-									<li><a href="#" class="sub">grocery, household & pets </a>
-										<ul>
-											<li class="sub-links"><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">men's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">baby's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">shoes</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li><a href="#" class="sub">gifts, parties & holidays </a>
-										<ul>
-											<li class="sub-links"><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">men's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">baby's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">shoes</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li><a href="#" class="sub">cleaance & deals </a>
-										<ul>
-											<li class="sub-links"><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">men's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">baby's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">shoes</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li><a href="#" class="sub">all categories </a>
-										<ul>
-											<li class="sub-links"><a href="#">women's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">extended sizing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">men's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">baby's clothing</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-											<li class="sub-links"><a href="#">shoes</a>
-												<ul>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-													<li><a href="#">stuff and things</a></li>
-												</ul>
-											</li>
-										</ul>
+									<li class="redcard">
+										<a href="red">REDcard</a>
 									</li>
 								</ul>
-							</nav>
-						</nav>
+							</div>
+						<div class="email">
+							<a href="email.html"><img src="img/email.jpg" alt="email-icon">
+							<div class="e-text">e-mail offers<br>
+								<span>sign up & save</span></a>
+							</div>
 						</div>
-						<div class="searchbar clearfix">
-							<div id="tfheader">
-							<select class="cat">
-								<option value="all">all</option>
-			 					<option value="all">all categories</option>
-			 					<option value="acc">accessories</option>
-			  					<option value="baby">baby</option>
-							  	<option value="beauty">beauty</option>
-							  	<option value="clear">clearance</option>
-			 					<option value="cloth">clothing</option>
-			  					<option value="electronics">electronics</option>
-							  	<option value="entertain">entertainment</option>
-							  	<option value="all">furniture</option>
-			 					<option value="gift">giftcards</option>
-			  					<option value="groc">grocery and essentials</option>
-							  	<option value="health">health</option>
-							  	<option value="home">home</option>
-			 					<option value="house">household essentials</option>
-			  					<option value="party">party supplies & holidays</option>
-							  	<option value="patio">patio & garden</option>
-							  	<option value="pets">pets</option>
-			 					<option value="shoes">shoes</option>
-			  					<option value="sports">sports & outdoors</option>
-							  	<option value="toys">toys</option>
-							  	<option value="video">video games</option>
+							<div class="content clearfix">
+								<div class="block block-40 clearfix">
+									<p><a href="#" id="trigger" class="menu-trigger">Show All Categories</a></p>
 
-							</select>
+								</div>
+							</div>
+							<div class="searchbar clearfix">
+								<div id="tfheader">
+								<select class="cat">
+									<option value="all">all</option>
+				 					<option value="all">all categories</option>
+				 					<option value="acc">accessories</option>
+				  					<option value="baby">baby</option>
+								  	<option value="beauty">beauty</option>
+								  	<option value="clear">clearance</option>
+				 					<option value="cloth">clothing</option>
+				  					<option value="electronics">electronics</option>
+								  	<option value="entertain">entertainment</option>
+								  	<option value="all">furniture</option>
+				 					<option value="gift">giftcards</option>
+				  					<option value="groc">grocery and essentials</option>
+								  	<option value="health">health</option>
+								  	<option value="home">home</option>
+				 					<option value="house">household essentials</option>
+				  					<option value="party">party supplies & holidays</option>
+								  	<option value="patio">patio & garden</option>
+								  	<option value="pets">pets</option>
+				 					<option value="shoes">shoes</option>
+				  					<option value="sports">sports & outdoors</option>
+								  	<option value="toys">toys</option>
+								  	<option value="video">video games</option>
+
+								</select>
 
 								<form id="tfnewsearch" method="get" action="http://www.google.com">
 			       					 <input type="text" class="tftextinput" name="q" size="21" value="search target.com" maxlength="120">
@@ -634,14 +1208,8 @@
 								<img src="img/shop.png" alt="shopping-cart"> <h3>0 items in your car</h3>
 							</div>
 						</div>
-					</div> 
-				</header>
-				<div class="shipping"> <a href="#">free shipping</a> on orders of $25+ & free returns on everything <a href="#" class="learn-shipping">learn more</a>
-				</div>
-			</div> <!--end header-->
-
-
-			<div class="body-wrapper">
+						</header>
+						<div class="body-wrapper">
 				<div class="sports-title">
 					<p>Target / sports & outdoors</p>
 					<h1>sports & outdoors</h1>
@@ -698,7 +1266,7 @@
 							</ul>
 					</nav>
 					<div class="large-wrap">
-						<nav class="icon">
+						<nav class="icon1">
 							<ul class="clearfix">
 							
 								<li>
@@ -973,11 +1541,17 @@
 					<a href="#">view mobile version</a></p>
 				</div>
 			</footer>
-		</div>
-	</div>
+					</div><!-- /scroller-inner -->
+				</div><!-- /scroller -->
 
-
-	<script type="text/javascript" src="js/jquery.sidr.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script> 
-</body>
+			</div><!-- /pusher -->
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/mlpushmenu.js"></script>
+		<script>
+			new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ), {
+				type : 'cover'
+			} );
+		</script>
+	</body>
 </html>
