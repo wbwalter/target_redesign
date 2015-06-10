@@ -374,6 +374,16 @@ span {
 
 /**/
     }
+    .top-nav ul {
+      list-style-type: none;
+    }
+.top-nav li {
+  display: inline;
+}
+  .top-nav li a {
+    text-decoration: none;
+    display: inline;
+  }
 .topa {
   float: left;
   width: 60%;
