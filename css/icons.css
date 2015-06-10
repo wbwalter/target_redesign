@@ -1,4 +1,4 @@
-@font-face {
+@/*font-face {
 	font-family: 'linecons';
 	src:url('../fonts/linecons/linecons.eot');
 	src:url('../fonts/linecons/linecons.eot?#iefix') format('embedded-opentype'),
@@ -20,8 +20,8 @@
 	display: inline-block;
 	margin-right: 0.6em;
 	-webkit-font-smoothing: antialiased;
-}
-.icon-female:before {
+}*/
+/*.icon-female:before {
 	content: "\f182";
 }
 .icon-male:before {
@@ -195,4 +195,4 @@
 }
 .icon-world:before {
 	content: "\e02f";
-}
+}*/
